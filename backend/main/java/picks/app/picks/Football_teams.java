@@ -1,7 +1,5 @@
-package picks.app.picks;
+package backend.main.java.picks.app.picks;
 
-
-import javafx.scene.control.Label;
 
 import java.io.File;
 import java.sql.Connection;

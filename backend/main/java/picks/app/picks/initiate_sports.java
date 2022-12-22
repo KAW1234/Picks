@@ -1,4 +1,4 @@
-package picks.app.picks;
+package backend.main.java.picks.app.picks;
 
 public abstract class initiate_sports {
 

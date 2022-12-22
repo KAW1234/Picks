@@ -1,14 +1,11 @@
-package picks.app.picks;
+package backend.main.java.picks.app.picks;
 
 
-
-import javafx.stage.Stage;
 
 
 import java.sql.*;
 
 public class Login_Screen   {
-    Stage stage = new Stage();
     Database database = Database.get_instance();
     Connection conn = database.connect_database();
     private static String current_user;
