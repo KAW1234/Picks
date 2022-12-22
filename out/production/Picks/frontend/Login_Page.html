@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+
+</head>
+<body>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.7.14/dist/vue.js"></script>
+
+<Header>
+
+        <div id = 'login_border'>
+            <h1>Welcome to Picks</h1>
+            <form id = 'form_divider'>
+                <div class= 'label_box'>
+                <label for = 'name_input'>Username:</label>
+                <input  type = 'text' name = "username" id = 'name_input' required>
+                </div>
+
+                <div class = 'label_box'>
+                <label for = 'password'>Password:</label>
+                <input type = 'password' name = 'password' id = 'password' required>
+                </div>
+
+                <button type = 'submit' id = 'button_submit' name = 'buttonpress'>Login</button>
+
+
+
+            </form>
+
+
+
+        </div>
+
+
+
+
+</Header>
+
+
+
+
+
+<script>
+    const username = document.getElementbyId("name_input");
+    const password = document.getElementbyId("password");
+
+
+</script>
+</body>
+
+<style>
+body{
+background-image: url('/photos/football_back2.jpg');
+background-size: cover;
+background-repeat: no-repeat;
+    }
+
+
+#login_border{
+border-style: solid;
+border-color: black;
+width: 450px;
+height: 450px;
+position: absolute;
+top: 20%;
+left: 36.5%;
+background-color:white;
+
+}
+
+h1{
+position: absolute;
+left: 20%;
+}
+
+#form_divider{
+position: absolute;
+top: 22%;
+left: 10%;
+}
+
+.label_box{
+padding: 20px;
+font-size: 10pt;
+}
+
+input{
+width: 200px;
+height: 30px;
+
+
+
+}
+
+button{
+width: 60%;
+height: 40px;
+position: relative;
+left: 25%;
+top: 30px;
+background-color: #4CBB17;
+border-radius: 16px;
+
+}
+
+
+</style>
+</html>
