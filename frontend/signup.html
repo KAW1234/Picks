@@ -14,22 +14,31 @@
         <h1>Welcome to Picks</h1>
 
         <form id = 'form_divider' action = >
+
             <div class= 'label_box'>
-                <label for = 'name_input'>Username:</label>
+                <label for = 'email'>Email:<br></label>
+                <input  type = 'email' name = "email" id = 'email' required>
+            </div>
+
+            <div class= 'label_box'>
+                <label for = 'name_input'>Username:<br></label>
                 <input  type = 'text' name = "username" id = 'name_input' required>
             </div>
 
             <div class = 'label_box'>
-                <label for = 'password'>Password:</label>
+                <label for = 'password'>Password:<br></label>
                 <input type = 'password' name = 'password' id = 'password' required>
             </div>
 
             <div class = 'label_box'>
-                <label for = 'password'>Confirm<br>Password:</label>
+                <label for = 'password'>Confirm Password:<br></label>
                 <input type = 'password' name = 'password' id = 'confirm_pass' required>
+
             </div>
 
-            <button type = 'submit' id = 'button_submit' name = 'buttonpress'>Login</button>
+
+
+            <button type = 'submit' id = 'button_submit' name = 'buttonpress'>Sign Up</button>
 
 
 
@@ -69,7 +78,7 @@ background-repeat: no-repeat;
 border-style: solid;
 border-color: black;
 width: 450px;
-height: 450px;
+height: 550px;
 position: absolute;
 top: 20%;
 left: 36.5%;
@@ -84,8 +93,8 @@ left: 20%;
 
 #form_divider{
 position: absolute;
-top: 22%;
-left: 10%;
+top: 16%;
+left: 20%;
 }
 
 .label_box{
@@ -103,8 +112,8 @@ button{
 width: 60%;
 height: 40px;
 position: relative;
-left: 25%;
-top: 30px;
+left: 17%;
+top: 10px;
 background-color: #4CBB17;
 border-radius: 16px;
 }
